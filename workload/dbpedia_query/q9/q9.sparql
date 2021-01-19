@@ -1,0 +1,4 @@
+SELECT * WHERE { 
+	?var1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . 
+	?var1 <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Canada> . 
+}

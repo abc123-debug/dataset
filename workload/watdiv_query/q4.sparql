@@ -1,0 +1,6 @@
+SELECT ?v1 ?v2 ?v3 WHERE {
+	<http://db.uwaterloo.ca/~galuc/wsdbm/City4>	<http://www.geonames.org/ontology#parentCountry>	?v1 .
+	?v2	<http://db.uwaterloo.ca/~galuc/wsdbm/likes>	<http://db.uwaterloo.ca/~galuc/wsdbm/Product3> .
+	?v2	<http://schema.org/nationality>	?v1 .
+	?v2 <http://db.uwaterloo.ca/~galuc/wsdbm/gender>	?v3	.
+}

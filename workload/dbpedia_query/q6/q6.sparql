@@ -1,0 +1,5 @@
+SELECT ?var5 ?var1 ?var2 WHERE { 
+	?var5 <http://xmlns.com/foaf/0.1/givenName> "Andy"@en .
+	?var5 <http://dbpedia.org/ontology/deathPlace> ?var1 .
+	?var2<http://dbpedia.org/ontology/birthPlace> ?var1 .  
+}

@@ -1,0 +1,4 @@
+SELECT ?var2 WHERE { 
+	?var2 <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/United_States> . 
+	?var2 <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/California> . 
+}

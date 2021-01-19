@@ -1,0 +1,4 @@
+SELECT ?var0 ?var1 ?var2 WHERE {
+	?var0 <http://xmlns.com/foaf/0.1/name> ?var1 .
+	?var0 <http://xmlns.com/foaf/0.1/givenName> ?var2 .
+}

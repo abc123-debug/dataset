@@ -1,0 +1,6 @@
+SELECT ?v0 ?v1 ?v2 ?v4 WHERE {
+	?v0	<http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre>	<http://db.uwaterloo.ca/~galuc/wsdbm/SubGenre72> .
+	?v1	<http://db.uwaterloo.ca/~galuc/wsdbm/makesPurchase>	?v2 .
+	?v2	<http://db.uwaterloo.ca/~galuc/wsdbm/purchaseDate>	?v4 .
+	?v2	<http://db.uwaterloo.ca/~galuc/wsdbm/purchaseFor>	?v0 .
+}

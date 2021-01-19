@@ -1,0 +1,3 @@
+SELECT ?var6 WHERE { 
+	?var6 <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/Germany> .
+}

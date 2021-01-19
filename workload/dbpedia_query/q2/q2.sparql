@@ -1,0 +1,3 @@
+SELECT DISTINCT ?var2 WHERE { 
+	<http://dbpedia.org/resource/Albertus_Magnus> <http://dbpedia.org/ontology/deathPlace> ?var2 .
+}
